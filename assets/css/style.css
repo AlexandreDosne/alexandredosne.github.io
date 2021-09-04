@@ -1,0 +1,60 @@
+/*!
+ *  Hack typeface https://github.com/source-foundry/Hack
+ *  License: https://github.com/source-foundry/Hack/blob/master/LICENSE.md
+ */
+/* FONT PATHS
+ * -------------------------- */
+@font-face {
+  font-family: 'Hack';
+  src: url("fonts/hack-regular-subset.woff2?sha=3114f1256") format("woff2"), url("fonts/hack-regular-subset.woff?sha=3114f1256") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url("fonts/hack-bold-subset.woff2?sha=3114f1256") format("woff2"), url("fonts/hack-bold-subset.woff?sha=3114f1256") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url("fonts/hack-italic-subset.woff2?sha=3114f1256") format("woff2"), url("fonts/hack-italic-webfont.woff?sha=3114f1256") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url("fonts/hack-bolditalic-subset.woff2?sha=3114f1256") format("woff2"), url("fonts/hack-bolditalic-subset.woff?sha=3114f1256") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+body {
+  font-family: 'Hack';
+  background-color: black;
+  color: lightgray;
+  margin-left: 5em;
+}
+
+a {
+  color: green;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  padding-left: 2.5em;
+  text-indent: -1em;
+}
+
+li:before {
+  content: "*";
+  padding-right: 5px;
+}
+/*# sourceMappingURL=style.css.map */
